@@ -20,13 +20,25 @@ body {
 
 .header {
     text-align: center;
-    padding: 30px;
+    padding: 50px;
+    background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+    background-size: 100%;
 }
 
 h1 {
     font-weight: 700;
+    font-size: 40px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+    color: var(--orange);
+    text-shadow: 1px 1px 2px var(--honey-yellow);
+}
+
+nav {
+    background: var(--honey-yellow);
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 .nav-links {
@@ -36,8 +48,7 @@ h1 {
     list-style: none;
     text-transform: uppercase;
     padding: 7px;
-    border-bottom: 2px solid var(--prussian-blue);
-    border-top: 2px solid var(--prussian-blue);
+    font-size: 20px;
 }
 
 a {
@@ -56,15 +67,89 @@ a:hover {
     text-align: center;
     font-weight: 600;
     letter-spacing: 2px;
-    border-bottom: 2px solid var(--light-cornflower-blue);
+    border-top: 3px solid var(--light-cornflower-blue);
+    padding: 15px;
+    padding-top: 30px;
 }
 
-footer {
+.project-section {
+    text-align: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 20px;
-    font-size: 15px;
+    flex-direction: column;
+    
 }
+
+.project-section a {
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.project-section img {
+    width: 30vw;
+    margin: 20px;
+}
+
+.project-section p {
+    margin: 20px;
+}
+
+.resume {
+    line-height: 30px;
+    margin: 30px;
+}
+
+#about {
+    font-size: 17px;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.resume li {
+    margin-left: 40px;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 40px;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--blue-green);
+    margin: 60px;
+    padding: 50px 80px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.contact-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type='submit'] {
+    text-transform: uppercase;
+    background-color: var(--blue-green);
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+

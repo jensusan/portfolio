@@ -7,30 +7,102 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css"/>
     <title>Jennifer Susan</title>
 </head>
 <body>
     <header class="header">
-        <h1>Jennifer Susan Portfolio</h1>
+        <h1>Jennifer Susan</h1>
     </header>
     <nav>
         <ul class="nav-links">
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact-links">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h2 class="section-header">Projects</h2>
+        <h2 class="section-header" id='projects'>Projects</h2>
+        <div class='project-section'>
+            <a href='https://vibrant-boyd-ddc6cc.netlify.app'><img src="https://images.unsplash.com/photo-1638323307587-4f4eda877bc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60" alt='costume-project'></a>
+            <p>A website for costume designers that keeps sketches, notes, to do lists, and costume tracker all in one place.
+            </p>
+            <p>React, Python/Django, PostgreSQL, Styled-Components, Axios</p>
+            <a href='https://github.com/jensusan/costume-frontend'>Github Repository</a>
+            <a href='https://practical-swartz-82b2cf.netlify.app/' target='_blank'><img src='https://images.unsplash.com/photo-1638323307587-4f4eda877bc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60' alt='store-project'></a>
+            <p>A full-stack MERN e-commerce website where users can browse shoes, add them to their cart, and leave reviews.</p>
+            <p>React, Express, Mongo, Node, Styled-Components, Ajax</p>
+            <a href='https://github.com/jensusan/MERN-project-frontend' target='_blank'>Github Repository</a>
+            <a href='https://anime-search-api.vercel.app/' target='_blank'><img src='https://images.unsplash.com/photo-1638323307587-4f4eda877bc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60' alt="anime-project"></a>
+            <p>A web application that lets you search for animes using an API, read random quotes from the show, and save shows to a watch list and localstorage.</p>
+            <p>CSS, HTML, JavaScript, jQuery</p>
+            <a href='https://github.com/jensusan/anime-search-api' target='_blank'>Github Repository</a>
+            <a href='https://infinite-escarpment-76448.herokuapp.com/' target='_blank'><img src='https://images.unsplash.com/photo-1638323307587-4f4eda877bc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60' alt="wins-project"></a>
+            <p>A CRUD app that allows users to post wins, positive things, and humble brags. Users can also like and comment on posts.</p>
+            <p>HTML, CSS, JavaScript, Express, Node</p>
+            <a href='https://github.com/jensusan/project2-wins' target='_blank'>Github Repository</a>
+        </div>
         <h2 class="section-header">About me</h2>
+        <div class='resume'>
+        <p id='about'>A full-stack developer proficient in JavaScript, React, Python/Django, and Ruby/Rails, use these tools to create aesthetically pleasing and functional projects. Driven to solve problems and create products that are helpful and bring joy to others. With a background in theatre, adept at collaborating with others, finding efficient solutions, and thinking creatively. </p>
+        <div class='skills'>
+            <h4>Skills</h4>
+            <p>JavaScript | HTML | CSS | jQuery | MongoDB | Express | React | Node | PostgresSQL | Ruby | Python | pgAdmin | Visual Studios | Microsoft Office | Zoom | Slack | Communication | Teamwork | Flexibility | Problem-Solving | Creativity</p>
+        </div>
+        <h4>Experience</h4>
+        <h5>Server- Boka Catering</h5>
+        <ul>
+            <li>Set up event spaces, including setting up tables, plates, silverware, and table decorations. </li>
+            <li>Take orders and check in on guests throughout the event. 
+            </li>
+            <li>Serve guests food and drinks at tables.</li>
+        </ul>
+        <h5>In Store Shopper- Instacart</h5>
+        <ul>
+            <li>Process customers’ orders through live chat or telephone calls and log data in order entry system.
+            </li>
+            <li>Develop personalized shopping experience for all customers through providing individualized attention along with prevailing knowledge of products.
+            </li>
+            <li>Ensure to follow through on client commitments on time.
+            </li>
+        </ul>
+        <h5>Free Lance Theatre Consultant</h5>
+        <ul>
+            <li>Worked on a team and collaborated to build costumes.</li>
+            <li>Followed instructions to complete sewing garments.
+            </li>
+            <li>Maintain clean and safe personal work area.
+            </li>
+            <li>Manage time effectively on each construction project.
+            </li>
+            <li>Tracked costumes and problem solved during live performances.
+            </li>
+        </ul>
+        <h4>Education</h4>
+        <ul>
+            <li>Software Engineering Immersive - Remote - General Assembly</li>
+            <li>B.A. in Theatre - Loyola University Chicago</li>
+        </ul>
+        </div>
         <h2 class="section-header">Contact</h2>
+        <div id='contact-links'>
+            <a href='https://github.com/jensusan' target='_blank'><i class="fa fa-github"></i></a>
+            <a class='email' href='#'>jensusan1@gmail.com</a>
+            <a href='https://www.linkedin.com/in/jennifersusan/' target='_blank'><i class="fa fa-linkedin"></i></a>
+        </div>
+            <form class='contact-form'>
+                <label for='name'>Your Name:</label>
+                <input type=text name='name'/>
+                <label for='email'>Your Email Address:</label>
+                <input type=email name='email'/>
+                <label for='message'>Your Message:</label>
+                <textarea name='message'></textarea>
+                <input type='submit' value='Send Message'/>
+            </form>
+        
     </main>
-    <footer>
-        <p>links</p>
-        <h4>Jennifer Susan Portfolio</h4>
-        <p>Design: Jennifer Susan</p>
-    </footer>
+   
     
 </body>
 </html>
