@@ -89,6 +89,10 @@ a:hover {
     margin: 20px;
 }
 
+.project-section img:hover {
+    width: 35vw;
+}
+
 .project-section p {
     margin: 20px;
 }
